@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 - [x] Code release.
 - [x] Training scripts.
-- [ ] Inference scripts.
+- [x] Inference scripts.
 
 ## Training
 
@@ -68,6 +68,7 @@ bash scripts/train_deepfashion_512x256_veri3d.sh
 Intermediate results will be saved under `checkpoint/train_deepfashion_512x256_veri3d/volume_renderer/samples` every 100 iterations. The first line presents inference images from EMA generator. The second line present one inference sample of the training generator and one sample from the training dataset.
 
 ## Inference
+The pretrained models are available [here](https://drive.google.com/drive/folders/1fxgXsEi5yr9nA6zSu-_Y5830uYOmXc08?usp=sharing).
 #### Commands
 Run the following script to perform pose control (with AIST++ pose), shape control, view control, appearance control and part-level control.
 
